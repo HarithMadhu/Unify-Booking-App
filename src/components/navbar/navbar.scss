@@ -1,0 +1,80 @@
+@import '../../assets/styles/global.scss';
+
+.navbar-container{
+    border-bottom: 4px solid #E2E2E2;
+    position: fixed;
+    width: 100%;
+    background: white;
+    z-index: 1;
+    .navbar{
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 64px;
+        margin-right: 64px;
+        .navbar-menu{
+            display: flex;
+            flex-direction: row;
+            margin: 0px;
+            padding: 0px;
+            list-style-type: none;
+            width: 30%;
+            height: 100%;
+            align-items: center;
+            .logo{
+                flex-grow: 1;
+                a{            
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 600;
+                    font-size: 30px;
+                    color: black;
+                    cursor: pointer;
+                    text-decoration: none;
+                }
+            }
+            .menu-item{
+                height: 68px;
+                display: flex;
+                a{            
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: black;
+                    cursor: pointer;
+                    text-decoration: none;
+                    padding-top: 14px;
+                    padding-bottom: 0px;
+                    padding-left: 16px;
+                    padding-right: 16px;
+                    display: flex;
+                    align-items: center;
+                    gap: 4px;
+                    border-bottom: 4px solid #E2E2E2;
+                    .menu-item-icon{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+        .icon-btn{
+            width: 42px;
+            height: 42px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: transparent;
+            border-radius: 50%;
+            border: none;
+            cursor: pointer;
+            .menu-item-icon{
+                color: #000000;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+.active{
+    border-bottom: 4px solid #000000 !important;
+}

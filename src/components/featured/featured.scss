@@ -1,0 +1,48 @@
+@import '../../assets/styles/global.scss'; 
+
+
+.featured{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 24px;
+    margin-left: 40px;
+    margin-right: 40px;
+    .featured-item{
+        height: 200px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        border-radius: 12px;
+        background-color: #eeeeee;   
+        text-decoration: none;
+        color: #000000; 
+        .img-container{
+            background-position: center;
+            background-size: contain;
+            border-radius: 0 12px 12px 0;
+        }
+        .text-container{
+            padding: 24px;
+            h3{
+                font-family: 'Montserrat', sans-serif;
+            }
+        }
+    }
+    .item-1{
+        .img-container{
+            background-image: url("../../assets/images/banner-img-taxi.png");
+            width: auto;
+        }
+    }
+    .item-2{
+        .img-container{
+            background-image: url("../../assets/images/banner-img-res.webp");
+            width: auto;
+        }
+    }
+    .item-3{
+        .img-container{
+            background-image: url("../../assets/images/banner-img-hot.jpg");
+            width: auto;
+        }
+    }
+}

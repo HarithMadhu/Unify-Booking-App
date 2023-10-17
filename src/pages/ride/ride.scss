@@ -1,0 +1,27 @@
+@import '../../assets/styles/global.scss';
+.ride-container{
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../../assets/images/hero-ride.jpg");
+    height: 800px;
+    .booking-detais{
+        position: relative;
+    }
+    .card{
+        width: fit-content;
+        background-color: #FCFCFD;
+        margin-left: 148px;
+    }
+    .title{
+        font-size: 52px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .icon{
+        font-size: 30px;
+    }
+    input[type="radio"]{
+        accent-color:#000000;
+    }
+}

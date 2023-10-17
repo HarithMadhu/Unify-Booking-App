@@ -1,0 +1,39 @@
+@import '../../assets/styles/global.scss'; 
+
+.footer-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 300px;
+    padding: 0 40px;
+    margin-top: 24px;
+    border-top: 1px solid #E2E2E2;
+    .logo{
+        display: flex;
+        align-items: center;
+        a{            
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 30px;
+            color: black;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    }
+    .footer-details{
+        display: flex;
+        width: 100%;
+        .f-details-side{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            gap: 16px;
+            a{            
+                font-size: 16px;
+                color: black;
+                cursor: pointer;
+                text-decoration: none;
+            }
+        }
+    }
+}

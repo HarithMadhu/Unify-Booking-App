@@ -1,0 +1,28 @@
+
+
+.hotel-container{
+    .main-image.img-st{
+        height: 320px;
+        background-position: left;
+        background-size: cover;
+        border-radius: 8px 0 0 8px;
+        background-repeat: no-repeat;
+    }
+    .main-image.img-st{
+        background-image: url("../../assets/images/et1.jpg") !important;
+    }
+    .sub-img-1{
+        background-image: url("../../assets/images/et5.jpg");
+    }
+    .sub-img-2{
+        background-image: url("../../assets/images/et2.jpg");
+        border-radius: 0 8px 0 0;
+    }
+    .sub-img-3{
+        background-image: url("../../assets/images/et3.jpg");
+    }
+    .sub-img-4{
+        background-image: url("../../assets/images/et4.jpg");
+        border-radius: 0 0 8px 0;
+    }
+}

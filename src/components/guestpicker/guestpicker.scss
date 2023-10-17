@@ -1,0 +1,32 @@
+
+.guest-picker-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    .guest-picker{
+        display: flex;
+        justify-content: space-between;
+        gap: 8px;
+        .guest-picker-titles{
+            h3{
+                margin: 0;
+                padding-bottom: 4px;
+            }
+        }
+        .guest-picker-item{
+            display: flex;
+            gap: 4px;
+            align-items: center;
+            button{
+                border-radius: 100%;
+                width: 32px;
+                height: 32px;
+                border: 1px solid #b0b0b0;
+                background-color: transparent;
+                font-size: 20px;
+                color: #b0b0b0;
+                cursor: pointer;
+            }
+        }
+    }
+}

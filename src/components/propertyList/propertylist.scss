@@ -1,0 +1,108 @@
+@import '../../assets/styles/global.scss';
+
+.home-title{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+.p-list{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 24px;
+    border-bottom: 1px solid #E2E2E2;
+    padding-bottom: 16px;
+    a{
+        text-decoration: none;
+        color: #000000; 
+        width: 250px;  
+        .p-list-titles{
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            h1{
+                font-weight: 600;
+                font-size: 20px;
+            }
+            span{
+                color: #717171;
+            }
+            b{
+                color: #000;
+                padding-right: 4px;
+            }
+        }
+        .img-bg{
+            width: 250px;
+            height: 250px;
+            background-position: left;
+            background-size: cover;
+            border-radius: 8px;
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+.meals-items{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.p-list-item-img-1{
+    background-image: url("../../assets/images/h1.jpg");
+}
+.p-list-item-img-2{
+    background-image: url("../../assets/images/h2.jpg");
+}
+.p-list-item-img-3{
+    background-image: url("../../assets/images/h3.jpg");
+}
+.p-list-item-img-4{
+    background-image: url("../../assets/images/h4.jpg");
+}
+
+.p-list-item-img-5{
+    background-image: url("../../assets/images/r1.jpg");
+}
+.p-list-item-img-6{
+    background-image: url("../../assets/images/r2.jpg");
+}
+.p-list-item-img-7{
+    background-image: url("../../assets/images/r3.jpg");
+}
+.p-list-item-img-8{
+    background-image: url("../../assets/images/r4.jpg");
+}
+
+.vehicles{
+    a{
+        background-color: #F6F6F6;
+        padding: 16px;
+        border-radius: 8px;
+    }
+}
+
+.p-list.vehicles{
+ border-bottom: none;
+}
+.p-list-item-img-9{
+    background-image: url("../../assets/images/scooter.svg");
+    width: 50px !important;
+    height: 50px !important;
+}
+.p-list-item-img-10{
+    background-image: url("../../assets/images/car.svg");
+    width: 50px !important;
+    height: 50px !important;
+}
+.p-list-item-img-11{
+    background-image: url("../../assets/images/bus.svg");
+    width: 50px !important;
+    height: 50px !important;
+}
+.p-list-item-img-12{
+    background-image: url("../../assets/images/truck.svg");
+    width: 50px !important;
+    height: 50px !important;
+}
